@@ -1,16 +1,16 @@
 {
   "bot-account": {
-    "username": "bot",
-    "password": "your_password",
-    "type": "microsoft"
+    "username": "Ultra_X_Admin2", 
+    "password": "",
+    "type": "mojang"
   },
 
   "server": {
-    "ip": "localhost",
-    "port": 25565,
-    "version": "1.19.3"
+    "ip": "Ultra_X_Server.aternos.me", 
+    "port": 13616,   
+    "version": "1.12.1"   
   },
-
+  
   "position": {
     "enabled": false,
     "x": 0,
@@ -20,43 +20,29 @@
 
   "utils": {
     "auto-auth": {
-      "enabled": false,
-      "password": "12345678"
+      "enabled": true,
+      "password": "123m"
     },
 
     "anti-afk": {
-      "enabled": false,
-      "sneak": false,
-      "jump": false,
-      "rotate": false,
-
-      "hit": {
-        "enabled": false,
-        "delay": 1000,
-        "attack-mobs": false
-      },
-
-      "circle-walk": {
-        "enabled": false,
-        "radius": 2
-      }
+      "enabled": true,
+      "sneak": true
     },
 
     "chat-messages": {
-      "enabled": false,
+      "enabled": true,
       "repeat": true,
-      "repeat-delay": 60,
+      "repeat-delay": 62,
 
       "messages": [
-        "I'm a regular player ",
-        "My owner is urFate_ ",
-        "I want be alone ",
-        "Visit my GitHub page! (urFate/Afk-Bot)"
+        "ba adab harf bezanid",
+        "Subscibe To Ulta_X_Sonic!",
+        "fohsh nadid"
       ]
     },
 
     "chat-log": true,
-    "auto-reconnect": false,
-    "auto-reconnect-delay": 5000
+    "auto-reconnect": true,
+    "auto-recconect-delay": 5000
   }
 }
